@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-cream: #fdf8f0;
+  --color-ink: #1a1a1a;
+  --color-rule: #d4d0c8;
+  --font-playfair: var(--font-playfair);
+  --font-lora: var(--font-lora);
+  --font-source-sans: var(--font-source-sans);
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-lora), Georgia, "Times New Roman", serif;
+  -webkit-font-smoothing: antialiased;
+}
